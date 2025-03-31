@@ -1,12 +1,12 @@
 {
-  "name": "ts-cli-boilerplate",
-  "version": "2.0.0",
-  "description": "Quickly staring a Typescript cli project",
+  "name": "solcast-hobbyist-cli",
+  "version": "0.0.1",
+  "description": "Get a Solcast forecast for a given location",
   "main": "./bin/cli.js",
   "module": "./bin/cli.mjs",
   "type": "module",
   "bin": {
-    "[YOUR_CLI_BIN_NAME]": "./bin/cli.mjs"
+    "solhob": "./bin/cli.mjs"
   },
   "files": [
     "bin"
@@ -17,19 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/backrunner/ts-cli-boilerplate.git"
+    "url": "git+https://github.com/DanielMaly/solcast-hobbyist-cli.git"
   },
-  "keywords": [
-    "boilerplate",
-    "typescript",
-    "cli"
-  ],
-  "author": "BackRunner",
+  "keywords": [],
+  "author": "DanielMaly",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/backrunner/ts-cli-boilerplate/issues"
+    "url": "https://github.com/DanielMaly/solcast-hobbyist-cli#issues"
   },
-  "homepage": "https://github.com/backrunner/ts-cli-boilerplate#readme",
+  "homepage": "https://github.com/DanielMaly/solcast-hobbyist-cli#readme",
   "devDependencies": {
     "@babel/core": "^7.26.10",
     "@babel/eslint-parser": "^7.26.10",
